@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>I have no answer for that.</template>
+  </category>
+   <category>
+    <pattern>Trái đất hình gì</pattern>
+    <template>Trái hình cầu bị nén dọc theo hướng từ địa cực tới chỗ phình ra ở xích đạo.</template>
+ </category>
+ 
+  <category>
+    <pattern>Tôi cần thông tin về thời tiết</pattern>
+    <template>Tôi không thể cung cấp thông tin thời tiết. Bạn có thể tra cứu trực tuyến.</template>
+  </category>
+  
+  <category>
+    <pattern>Máy tính là gì </pattern>
+    <template>Máy tính hay máy điện toán là một máy có thể được hướng dẫn để thực hiện các các chuỗi các phép toán số học hoặc logic một cách tự động thông qua lập trình máy tính. Máy tính hiện đại có khả năng tuân theo các tập hợp lệnh tổng quát, được gọi là chương trình. </template>
+  </category>
+  
+  <category>
+    <pattern>Đây là một câu hỏi</pattern>
+    <template>Đúng vậy, đó là một câu hỏi. Bạn muốn biết gì thêm không?</template>
+  </category>
+  
+  <category>
+    <pattern>Cám ơn</pattern>
+    <template>Không có gì! Chúc bạn một ngày tốt lành.</template>
+  </category>
+
+  <category>
+    <pattern>Hiện tại là mấy giờ</pattern>
+    <template>Bây giờ là <srai>current_time</srai>.</template>
+  </category>
+  
+  <category>
+    <pattern>Ngày hôm nay là ngày mấy</pattern>
+    <template>Hôm nay là ngày <srai>current_date</srai>.</template>
+  </category>
+
+  <category>
+    <pattern>Chào buổi tối</pattern>
+    <template>Chào buổi tối!Ngày hôm nay của bạn thế nào.</template>
+  </category>
+
+  <category>
+    <pattern>Tên của tôi là *</pattern>
+    <template>Xin chào, <star/>! Rất vui được gặp bạn.</template>
+  </category>
+  <category>
+      <pattern>Nước là gì</pattern>
+      <template>Nước là một hợp chất vô cơ, không màu, không mùi, không vị.</template>
+  </category>
+  <category>
+    <pattern>Tên của bạn là *</pattern>
+    <template>Cảm ơn bạn đã đặt tên cho tôi! Tôi tên là <star/>.</template>
+  </category>
+  
+  <category>
+      <pattern>*</pattern>
+      <template>Tôi không hiểu bạn đang nói gì. Bạn hãy thử lại.</template>
+  </category>
+  <category>
+      <pattern>Không khí là gì</pattern>
+      <template>Không khí là lượng chất khí bao quanh chúng ta. Không khí không màu, không mùi, không vị.</template>
+  </category>
+  <category>
+      <pattern>Không khí có quan trọng không</pattern>
+      <template>Chúng đóng vai trò rất quan trọng, quyết định sự sống của con người và toàn bộ sinh vật trên trái đất.</template>
+  </category>
+</aiml>
